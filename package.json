@@ -2,6 +2,11 @@
   "name": "Phi Đen",
   "version": "0.1.0",
   "private": true,
+  "auth": {
+    "name": "Phi Đen",
+    "github": "https://github.com/KsorRmahPhiDen1594",
+    "url": "https://www.facebook.com/cu.en.135449/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,6 +29,7 @@
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.0.5",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
